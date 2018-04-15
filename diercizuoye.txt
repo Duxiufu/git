@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Diercizuoye {
+
+	/*public static void main(String[] args) {
+		
+		//输入
+		Scanner s = new Scanner(System.in);
+		int height = s.nextInt();
+		//输出
+		System.out.printf("%.1f",(height - 100) * 0.9 * 2);
+		}*/
+	/*public static void main(String[] args) {
+		//输入
+		/*Scanner s = new Scanner(System.in);
+		int intergers1 = s.nextInt();
+		int intergers2 = s.nextInt();
+		//输出
+		System.out.printf("hello,%d and %d",intergers1,intergers2);
+		}*/
+	/*public static void main(String[] args) {
+		int sum;
+		//输入
+		Scanner s = new Scanner(System.in);
+		int num1 = s.nextInt();
+		int num2 = s.nextInt();
+		int num3 = s.nextInt();
+		int num4 = s.nextInt();
+		//计算
+		sum = num1 + num2 + num3 + num4;
+		System.out.printf("Sum=%d;Average=%.1f",sum,sum/4.0);
+	}*/
+	/*public static void main(String[] args) {
+		//输入
+		Scanner s = new Scanner(System.in);
+		int num1 = s.nextInt();
+		int num2 = s.nextInt();
+		//输出
+		System.out.printf("%d+%d=%d",num1,num2,num1+num2);
+		System.out.println();
+		System.out.printf("%d-%d=%d",num1,num2,num1-num2);
+		System.out.println();
+		System.out.printf("%d*%d=%d",num1,num2,num1*num2);
+		System.out.println();
+		System.out.printf("%d/%d=%d",num1,num2,num1/num2);
+	}*/
+	public static void main(String[] args) {
+		//输入
+		Scanner s = new Scanner(System.in);
+		int F = s.nextInt();
+		//输出
+		System.out.printf("Celsius=%d",5*(F-32)/9);
+	}
+
+}
