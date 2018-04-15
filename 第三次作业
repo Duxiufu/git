@@ -1,0 +1,118 @@
+//import java.util.Scanner;
+//
+//    public class Main2 {
+//
+//	public static void main(String[] args) {
+//		Scanner in = new Scanner(System.in);
+//		int year = in.nextInt();
+//		int month = in.nextInt();
+//		switch(month){
+//			case 1: ;
+//			case 3: ;
+//			case 5: ;
+//			case 7: ;
+//			case 8: ;
+//			case 10: ;
+//			case 12:
+//				System.out.println(year + "-"+ month + "-31");
+//				break;
+//			case 2:
+//				if((year % 4 == 0 && year % 100 != 0)||(year % 400 == 0))
+//					System.out.println(year + "-" + month + "-29");
+//				else
+//					System.out.println(year + "-" + month + "-28");
+//				break;
+//			case 4: ;
+//			case 6: ;
+//			case 9: ;
+//			case 11: 
+//				System.out.println(year + "-" + month + "-30");
+//				break;
+//		}
+//	}
+//
+//}
+
+
+//import java.util.Scanner;
+//
+//  public class Main2 {
+//
+//	public static void main(String[] args) {
+//		Scanner in = new Scanner(System.in);
+//		int score = in.nextInt();
+//		switch(score / 10){
+//		case 10:;
+//		case 9:
+//			System.out.println(score + "--A");
+//			break;
+//		case 8:
+//			System.out.println(score + "--B");
+//			break;
+//		case 7:
+//			System.out.println(score + "--C");
+//			break;
+//		case 6:
+//			System.out.println(score + "--D");
+//			break;
+//		default:
+//			System.out.println(score + "--E");
+//		}
+//	}
+//}
+
+//import java.util.Scanner;
+//
+//  public class Main2 {
+//
+//	public static void main(String[] args) {
+//		Scanner in = new Scanner(System.in);
+//		double X = in.nextDouble();
+//		if(X < 20)
+//		{
+//			System.out.printf("x=%.2f,y=%.2f",X,X + 100);
+//		}
+//		else if(X >= 20 && X <= 100)
+//		{
+//			System.out.printf("x=%.2f,y=%.2f",X,X);
+//		}
+//		else
+//		{
+//			System.out.printf("x=%.2f,y=%.2f",X,X - 100);
+//		}
+//	}
+//  }
+
+
+//import java.util.Scanner;
+//
+//public class Main2 {
+//
+//	public static void main(String[] args) {
+//		Scanner in = new Scanner(System.in);
+//		double double1 = in.nextDouble();
+//		int i = in.nextInt();
+//		char c = in.next().charAt(0);
+//		double double2 = in.nextDouble();
+//		System.out.printf("%c %d %.2f %.2f",c,i,double1,double2);
+//	}
+//}
+
+
+import java.util.Scanner;
+
+public class Disancizuoye {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int i = in.nextInt();
+		int count = 0;
+		if(i < 0)
+			i = -i;
+		while(i != 0){
+			count += i%10;
+			i/=10;
+		}
+		System.out.println(count);
+	}
+}
